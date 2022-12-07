@@ -15,7 +15,7 @@ return a;
 
 void Polindrom(int num)
 {
-    if ((num % 10 == num / 100000) || (num % 100 == num / 1000) || (num % 1000 == num / 1000))
+    if ((num % 10 == num / 10000) || (num / 10 == num % 10000) || (num / 100 == num % 1000))
     {
         Console.WriteLine($"Число {num} - это полиндром");
     }
