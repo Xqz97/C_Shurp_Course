@@ -15,7 +15,7 @@ return a;
 double Distance(int ax, int ay, int az, int bx, int by, int bz)
 {
     double result = Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az, 2));
-    result = Math.Round(result7, 2);
+    result = Math.Round(result, 2);
     Console.Write($"A ({ax}, {ay}, {az}); B ({bx}, {by}, {bz}) -> {result}");
     return result;
 }
